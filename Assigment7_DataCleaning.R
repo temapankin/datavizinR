@@ -1,21 +1,3 @@
----
-  title: "R Week 07 Assignment"
-author: "Artem Pankin"
-date: "03/21/2025"
-format:
-  html:
-  toc: true
-toc-location: left
-code-fold: true
-code-summary: "Show the code"
-code-tools: true
----
-  
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
 data_dir <- file.path(getwd(), "data")
 
 require(sf)
